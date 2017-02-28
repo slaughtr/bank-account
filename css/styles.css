@@ -1,0 +1,21 @@
+.bg-info, .bg-success {
+  height: 300px;
+  border: 1px solid black;
+}
+
+h3 {
+  color: green;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#withdraw {
+  color: red;
+  font-weight: bold;
+}
+
+#deposit {
+  color: green;
+  font-weight: bold;
+  font-size: 20;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" title="no title">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Piggy Bank</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-4 bg-info">
+        <form id="new-contact">
+          <label>Your name:</label>
+          <input type="text" name="name" id="name"><br>
+          <label>Initial deposit:</label>
+          <input type="number" name="init-deposit" id="initDeposit">
+          <button type="submit" class="btn">Create my account!</button>
+        </form>
+      </div>
+      <div class="col-md-4 bg-info">
+        <form id="depositOrWithdraw">
+          <label>Deposit amount:</label>
+          <input type="number" name="deposit" id="deposit" value="0">
+          <label>Withdrawal amount:</label>
+          <input type="number" name="withdraw" id="withdraw" value="0">
+          <button type="submit" class="btn-success">Do the math dawg</button>
+        </form>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4 bg-success">
+        <p>Current balance:</p>
+        <br>
+        <h3><span id="currentBalance"></span></h3>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
